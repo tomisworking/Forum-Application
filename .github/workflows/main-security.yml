@@ -68,7 +68,7 @@ jobs:
       # 4) SCA – Trivy (Python + JS dependencies)
       ################################################
       - name: Install Trivy
-        uses: aquasecurity/setup-trivy@v0.2.3
+        uses: aquasecurity/setup-trivy@v0.20.0
 
       # SCA for whole repo (Python + React)
       - name: Trivy filesystem scan
